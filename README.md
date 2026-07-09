@@ -51,19 +51,15 @@ The dataset includes information about:
 ## Project Structure
 
 ```text
-Sales-Insights-Project/
+sales-insights-powerbi/
 │
 ├── Dataset/
 │
 ├── SQL/
-│   ├── database_analysis.sql
-│   ├── sales_analysis.sql
-│   ├── market_analysis.sql
-│   ├── customer_analysis.sql
-│   └── product_analysis.sql
+│   ├── SQL_analysis.sql
 │
 ├── Dashboard/
-│   └── Sales_Insights.pbix
+│   └── Sales_Insight_Dashboard.pbix
 │
 ├── Images/
 │
