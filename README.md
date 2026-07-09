@@ -51,17 +51,25 @@ The dataset includes information about:
 ## Project Structure
 
 ```text
-sales-insights-powerbi/
+sales-insights-sql-powerbi/
 │
 ├── Dataset/
+|   ├── db_dump.sql
+|   └── db_dump_version_2.sql
 │
 ├── SQL/
-│   ├── SQL_analysis.sql
+│   └── SQL_analysis.sql
 │
 ├── Dashboard/
 │   └── Sales_Insight_Dashboard.pbix
 │
 ├── Images/
+|   ├── Key Insights Page.png
+|   ├── Profit Analysis Page.png
+|   ├── Performance-Insights Page.png
+|   ├── mobile-dashboard-1.png
+|   ├── mobile-dashboard-2.png
+|   └── mobile-dashboard-3.png
 │
 └── README.md
 ```
@@ -121,9 +129,14 @@ The Power BI dashboard includes:
 
 Some of the measures created include:
 
-* Total Revenue
-* Total Sales Quantity
-* Revenue Growth
+* Total Revenue(Revenue)
+* Total Sales Quantity(Sales Qty)
+* Total Profit Margin
+* Profit Margin %
+* Profit Margin Contribution %
+* Revenue Contribution %
+* Revenue LY(Last Year)
+* Target Diff
 * Dynamic KPI Calculations
 
 ---
@@ -150,13 +163,30 @@ Some of the measures created include:
 
 ## Dashboard Preview
 
-### Desktop Dashboard
+### Key Insights Page
 
-> Add dashboard screenshot here.
+![Key Insights Page](Images/Key-Insights.png)
 
-### Mobile Dashboard
+### Profit Analysis Page
 
-> Add mobile dashboard screenshot here.
+![Profit Analysis Page](Images/Profit-Analysis.png)
+
+### Performance Insights Page
+
+![Performance Insights Page](Images/Performance-Insights.png)
+
+### 📱 Mobile Dashboard
+
+### Key Insights Page
+
+![Key Insights Page md](Images/mobile-dashboard-1.png)
+
+### Profit Analysis Page
+
+![Profit Analysis Page md](Images/mobile-dashboard-2.png)
+
+### Performance Insights Page
+![Performance Insights Page md](Images/mobile-dashboard-3.png)
 
 ---
 
@@ -193,9 +223,9 @@ This project was completed by following the **Codebasics Power BI Sales Insights
 
 ## Author
 
-**Your Name**
+**Pratipalsinh Rana**
 
-* GitHub: *Add GitHub Profile*
-* LinkedIn: *Add LinkedIn Profile*
+* GitHub: *https://github.com/Pratipalsinh3397*
+* LinkedIn: *www.linkedin.com/in/pratipalsinh-rana*
 
 If you found this project useful, consider ⭐ starring the repository.
